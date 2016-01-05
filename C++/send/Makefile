@@ -20,8 +20,8 @@ LIBS    = $(USBLIBS)
 CFLAGS  = $(USBFLAGS) $(LIBS) -O -g $(OSFLAG)
 
 CC=	g++
-PROGRAM= send$(EXE_SUFFIX)
-SOURCE= send.cpp
+PROGRAM= led$(EXE_SUFFIX)
+SOURCE= led.cpp
 
 all: $(PROGRAM)
 
